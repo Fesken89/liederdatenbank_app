@@ -1,13 +1,7 @@
-<% provide(:title, "Home") %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= yield(:title) %> | Liederdatenbank des Heilsbrunnen</title>
-  </head>
-  <body>
-    <h1>Liederdatenpbank App</h1>
-    <p>
-      Herzlich Willkommen
-    </p>
-  </body>
-</html>
+<div class="center jumbotron">
+<h1>Liederdatenbank des Heilsbrunnen</h1>
+
+<h2>Herzlich Willkommen
+</h2>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
