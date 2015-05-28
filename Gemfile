@@ -8,6 +8,8 @@ gem 'bootstrap-sass', '3.2.0.0'
 # gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Erstellt Fake user
+gem 'faker',    '1.4.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -27,6 +29,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'minitest-reporters'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
