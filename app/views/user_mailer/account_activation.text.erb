@@ -1,0 +1,5 @@
+Hi <%= @user.name %>,
+
+Herzlich Willkommen bei der Liederdatenbank der Kirche zum Heilsbrunnen, klicken Sie auf den Link um Ihren Account zu aktivieren:
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
